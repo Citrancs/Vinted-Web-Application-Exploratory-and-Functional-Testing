@@ -1,0 +1,66 @@
+# ==========================================
+# Operációs rendszerek által generált fájlok
+# ==========================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ==========================================
+# IDE / Szerkesztő beállítások (VS Code, JetBrains)
+# ==========================================
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# ==========================================
+# Tesztelési bizonyítékok (Média fájlok)
+# ==========================================
+*.mp4
+*.mov
+*.avi
+*.mkv
+
+# Ha a képernyőképeket egy külön mappába gyűjtöd, de nem akarod mindet feltölteni:
+# evidence/
+# screenshots/
+
+# ==========================================
+# JÖVŐBELI TERV: Automatizálás (Node.js / Python / Java)
+# ==========================================
+# Node.js (Cypress, Playwright) esetén:
+node_modules/
+/npm-debug.log*
+/yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Teszt riportok és screenshotok, amiket az automatizált keretrendszer generál:
+cypress/screenshots/
+cypress/videos/
+playwright-report/
+test-results/
+htmlreport/
+
+# Python (Selenium / PyTest) esetén:
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+venv/
+ENV/
+
+# Titkos adatok, környezeti változók (pl. jelszavak, API kulcsok)
+.env
+.env.local
