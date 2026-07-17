@@ -16,4 +16,4 @@ def browser():
 
     yield driver  # Itt fut le maga a teszt
 
-    driver.quit()  # A teszt végén bezárja a böngészőt
+    # driver.quit()  # A teszt végén bezárja a böngészőt
