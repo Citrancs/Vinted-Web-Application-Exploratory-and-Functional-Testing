@@ -2,7 +2,6 @@ from pages.general_page import GeneralPage
 from selenium.webdriver.common.by import By
 import selenium.webdriver.support.expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
-from selenium.webdriver.remote.webelement import WebElement
 
 class HomePage(GeneralPage):
     URL = "https://www.vinted.hu"
